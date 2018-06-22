@@ -1,0 +1,59 @@
+body {
+    background-color: teal;
+}
+
+#title {
+    background-color: lightcoral;
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    margin: 4px;
+    padding: 3px;
+}
+
+#directions {
+
+    background-color: gray;
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+}
+
+#container {
+    width: 260px;
+}
+
+#randomnumber {
+    background-color:peachpuff;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+    font-size: 40px;
+}
+
+
+#image1, #image2, #image3, #image4 {
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#yourscoreis {
+    background-color: powderblue;
+    height: 25px;
+    width: 170px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+#totalscore {
+    background-color: powderblue;
+    height: 100px;
+    width: 170px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 40px;
+}
