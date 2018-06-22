@@ -33,6 +33,11 @@ body {
     font-size: 40px;
 }
 
+#wins, #losses, #wincolor, #losecolor, #destiny {
+    color: yellow;
+    font-size: 16px;
+}
+
 
 #image1, #image2, #image3, #image4 {
     margin-top: 5px;
