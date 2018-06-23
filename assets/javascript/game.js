@@ -37,7 +37,7 @@ function resetGame(){
     $('#button2').attr('data-num', crystal2);
     $('#button3').attr('data-num', crystal3);
     $('#button4').attr('data-num', crystal4);
-    } 
+} 
 
 $(document).on('click', 'button', function() {
     var button = $(this);
