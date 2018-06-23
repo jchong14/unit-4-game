@@ -33,16 +33,16 @@ function resetGame(){
     crystal4= Math.ceil(Math.random()*12);
     totalScore= 0;
     $('#totalscore').text(totalScore);
-    $('#button1').data(crystal1);
-    $('#button2').data(crystal2);
-    $('#button3').data(crystal3);
-    $('#button4').data(crystal4);
+    $('#button1').attr('data-num', crystal1);
+    $('#button2').attr('data-num', crystal2);
+    $('#button3').attr('data-num', crystal3);
+    $('#button4').attr('data-num', crystal4);
     } 
 
 $(document).on('click', 'button', function() {
     var button = $(this);
-    button = $(this).data("num");
-    totalScore = button + totalScore;
+    button = $(this).attr("data-num");
+    totalScore = parseInt(button) + totalScore;
     $('#totalscore').text(totalScore);
 
  if (totalScore == random) {
